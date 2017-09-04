@@ -1,0 +1,23 @@
+<?php
+
+?>
+<fieldset class="form-list">
+    <?php $_code=$this->getMethodCode() ?>
+    <ul id="payment_form_<?php echo $_code ?>" style="display:none">
+        <li>
+            <img width="68px" src="<?php echo $this->getSkinUrl('/images/xfers/bank-logo-small-cimb.png'); ?>" />
+            <img width="68px" src="<?php echo $this->getSkinUrl('/images/xfers/bank-logo-small-citi.png'); ?>" />
+            <img width="68px" src="<?php echo $this->getSkinUrl('/images/xfers/bank-logo-small-dbs.png'); ?>" />
+            <img width="68px" src="<?php echo $this->getSkinUrl('/images/xfers/bank-logo-small-hsbc.png'); ?>" />
+            <img width="68px" src="<?php echo $this->getSkinUrl('/images/xfers/bank-logo-small-mbs.png'); ?>" />
+            <img width="68px" src="<?php echo $this->getSkinUrl('/images/xfers/bank-logo-small-ocbc.png'); ?>" />
+            <img width="68px" src="<?php echo $this->getSkinUrl('/images/xfers/bank-logo-small-posb.png'); ?>" />
+            <img width="68px" src="<?php echo $this->getSkinUrl('/images/xfers/bank-logo-small-scb.png'); ?>" />
+            <img width="68px" src="<?php echo $this->getSkinUrl('/images/xfers/bank-logo-small-uob.png'); ?>" />
+            <img width="68px" src="<?php echo $this->getSkinUrl('/images/xfers/xfersSmallLogo2.png'); ?>" />
+        </li>
+        <li>
+            <?php echo $this->__('You will be redirected to a secure payment page.') ?>
+        </li>
+    </ul>
+</fieldset>
